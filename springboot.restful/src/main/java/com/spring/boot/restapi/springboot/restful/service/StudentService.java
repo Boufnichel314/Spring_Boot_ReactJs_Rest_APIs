@@ -1,5 +1,7 @@
 package com.spring.boot.restapi.springboot.restful.service;
 
-public interface StudentService {
+import com.spring.boot.restapi.springboot.restful.model.Student;
 
+public interface StudentService {
+		public Student saveStudent(Student student);
 }
