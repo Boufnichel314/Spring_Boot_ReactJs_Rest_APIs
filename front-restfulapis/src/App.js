@@ -43,6 +43,7 @@ function App() {
               <input type="submit" value="Add Student"  onClick={HandleSubmit} />
       </form>
       </div> */}
+      
        <ButtonAppBar/>
        <Student/>
     </div>
